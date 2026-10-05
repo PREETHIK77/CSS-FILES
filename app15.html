@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Float used in DIV tag </title>
+    <style>
+        * {
+            padding: 2px;
+            margin: 2px;
+        }
+
+        #div1 {
+            border: 2px solid red;
+            height: 500px;
+        }
+
+        #top {
+            border: 2px solid green;
+            height: 100px;
+        }
+         #bottom {
+            border: 2px solid greenyellow;
+            height: 70px;
+            clear: both;
+        }
+
+        #left {
+            border: 2px solid skyblue;
+            height: 300px;
+            width: 20%;
+            float: left;
+        }
+
+        #middle {
+            border: 2px solid orange;
+            height: 300px;
+            width: 56%;
+             float: left;
+        }
+
+        #right {
+            border: 2px solid skyblue;
+            height: 300px;
+            width: 20%;
+             float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+        <div id="top">
+            TOP DIV
+        </div>
+        <div id="left"> LEFT DIV</div>
+        <div id="middle"> MIDDLE DIV</div>
+        <div id="right"> RIGHT DIV</div>
+         <div id="bottom">
+            BOTTOM DIV
+        </div>
+    </div>
+</body>
+
+</html>
