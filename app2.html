@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <title>inline-block example</title>
-    <style>
-        .box {
-            display: inline-block;
-            background-color: #ffff00;
-            width: 100px;
-            height: 100px;
-            margin: 10px;
-        }
-    </style>
-</head>
+  <title>Relative Example</title>
+  <style>
+    .box {
+      width: 100px;
+      height: 100px;
+      background: blue;
+      position: relative;
+      top: 100px;
+      left: 100px;
+    }
 
+    .text {
+      background: lightgray;
+    }
+  </style>
+</head>
 <body>
 
-    <h2>inline-block Example</h2>
+<h2>Relative Position</h2>
 
-    <div class="box"> box 1</div>
-    <div class="box"> box 2</div>
-    <div class="box"> box 3</div>
+<div class="box"></div>
+<p class="text">Notice the gap where the box originally was.</p>
 
 </body>
-
 </html>

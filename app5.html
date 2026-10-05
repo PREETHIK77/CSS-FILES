@@ -1,36 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-    <title>grid example</title>
-    <style>
-        .container {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            background-color: #f0f0f0;
-            margin: 10px;
-        }
+  <title>Sticky Example</title>
+  <style>
+    .header {
+      background: yellow;
+      padding: 10px;
+      position: sticky;
+      top: 10px;
+    }
 
-        .box {
-            background-color: #ffff00;
-            margin: 10px;
-        }
-    </style>
+    .content {
+      height: 1500px;
+    }
+  </style>
 </head>
-
 <body>
 
-    <h2>grid example</h2>
+<h2>Sticky Position</h2>
 
-    <div class="container">
-        <div class="box"> box 1</div>
-        <div class="box"> box 2</div>
-        <div class="box"> box 3</div>
-        <div class="box"> box 4</div>
-        <div class="box"> box 5</div>
-        <div class="box"> box 6</div>
-    </div>
+<div class="header">I stick to top when scrolling</div>
+
+<div class="content">
+  Scroll down to see effect...
+</div>
 
 </body>
-
 </html>
